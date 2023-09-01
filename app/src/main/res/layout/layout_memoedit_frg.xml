@@ -6,26 +6,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-<RelativeLayout
-
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/Save_Memo_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="50dp"
-        app:srcCompat="?attr/actionModeSelectAllDrawable" />
-
-
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -62,7 +42,5 @@
             android:inputType="textMultiLine"
             android:text="insert text" />
     </LinearLayout>
-
-</RelativeLayout>
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.mymemoapp.activity.fragment
+package com.example.mymemoapp.kt.fragment
 
 import android.content.ContentValues.TAG
 import android.content.Context
@@ -12,7 +12,7 @@ import com.example.mymemoapp.R
 
 class MemoEdit : Fragment() {
 
-//    フラグメントと関連付けられたとき
+    //フラグメントと関連付けられたとき
     override fun onAttach(context: Context) {
         super.onAttach(context)
         Log.d(TAG, "onAttach: called")
